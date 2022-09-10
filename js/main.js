@@ -1,4 +1,4 @@
-let nombre = "amigo"
+let nombre = "amigo";
 nombre = prompt("Ingresa tu nombre");
 alert(`Hola ${nombre}, bienvenido a esta CoderApp`);
 console.log(
