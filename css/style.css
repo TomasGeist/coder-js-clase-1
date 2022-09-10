@@ -1,26 +1,26 @@
-html{
+html {
   margin: 0px;
 }
 
-body{
+body {
   box-sizing: border-box;
   margin: 0px;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-.main-text{
+.main-text {
   width: 23rem;
 }
 
-body{
+body {
   background-color: pink;
   min-width: 1333px;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,11 +29,12 @@ body{
   margin: auto;
   height: 93.4vh;
   font-size: 5rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-shadow: .2rem .2rem .2rem black ;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 0.2rem 0.2rem 0.2rem black;
 }
 
-.center{
+.center {
   border: medium solid pink;
   margin: auto;
   text-align: center;
@@ -45,16 +46,13 @@ body{
   animation-direction: alternate;
   overflow-y: visible;
   margin: 0px;
- 
 }
 
-
-.span{
+.span {
   color: aqua;
-  
 }
 
-.img-container{
+.img-container {
   width: 20%;
   background-color: black;
   display: flex;
@@ -64,24 +62,24 @@ body{
   flex-wrap: wrap;
 }
 
-.image{
-  width: 4rem;
+.image {
+  width: 6rem;
   padding: 1rem;
   padding-bottom: 0px;
 }
 
-.image:hover{
-  filter: drop-shadow(0rem 0rem .1rem white);
+.image:hover {
+  filter: drop-shadow(0rem 0rem 0.1rem white);
 }
 
-.nothing{
+.nothing {
   display: flex;
   justify-content: end;
   align-items: flex-end;
   height: 65%;
 }
 
-.code{
+.code {
   animation-name: AnimationCode;
   animation-duration: 0.4s;
   animation-delay: 2;
@@ -90,8 +88,7 @@ body{
   background-color: black;
 }
 
-
-.texto-links{
+.texto-links {
   display: flex;
   border: medium solid red;
   width: 100%;
@@ -99,7 +96,7 @@ body{
   flex-direction: column;
 }
 
-.play-again{
+.play-again {
   width: 120%;
   height: 50%;
   border-radius: 5%;
@@ -107,17 +104,17 @@ body{
   background-color: white;
 }
 
-.play-again:hover{
+.play-again:hover {
   background-color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
 }
 
-.footer{
+.footer {
   display: flex;
   width: 100%;
 }
 
-.footer-container{
+.footer-container {
   width: 100%;
   height: 4rem;
   background-color: black;
@@ -126,30 +123,29 @@ body{
   justify-content: center;
 }
 
-.footer-container h2{
-   color: white;
-   font-size: 1rem;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.footer-container h2 {
+  color: white;
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-  @keyframes AnimationOne {
-    from {
-      transform: translateX(0);
-    }
-  
-    to{
-      transform: translateX(10%);
-    }
+@keyframes AnimationOne {
+  from {
+    transform: translateX(0);
   }
 
-
+  to {
+    transform: translateX(10%);
+  }
+}
 
 @keyframes AnimationCode {
   from {
     background-color: white;
   }
 
-  to{
+  to {
     background-color: black;
   }
 }

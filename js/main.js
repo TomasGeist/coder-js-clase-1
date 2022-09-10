@@ -1,7 +1,9 @@
 let nombre = "amigo"
 nombre = prompt("Ingresa tu nombre");
 alert(`Hola ${nombre}, bienvenido a esta CoderApp`);
-console.log("Opa, venias a ver el codigo?? Te lo dejo en este link de github, no es necesario que lo mires por aca... Link:")
+console.log(
+  "Opa, venias a ver el codigo?? Te lo dejo en este link de github, no es necesario que lo mires por aca... Link: https://github.com/TomasGeist/coder-js-clase-1"
+);
 alert(`Piensa un numero ${nombre}`);
 alert(`sumale 4`);
 alert(`Multiplica ese resultado por 4`);
